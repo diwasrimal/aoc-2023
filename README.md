@@ -5,6 +5,7 @@ These are solutions of advent of code 2023 written in Java.
 ### Run
 ```console
 git clone https://github.com/diwasrimal/aoc-2023.git
+cd aoc-2023
 cd 01
 javac *.java
 java One input.txt
