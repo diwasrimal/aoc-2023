@@ -30,7 +30,6 @@ public class Two {
             while (curr.symbol != Pipe.startSymbol) {
                 xs.add(curr.x);
                 ys.add(curr.y);
-                boundary[curr.y][curr.x] = true;
                 for (Pipe next : maze.findMovablePipes(curr)) {
                     if (next.y == prev.y && next.x == prev.x) {
                         continue;
