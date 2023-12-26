@@ -1,8 +1,4 @@
-account_code.txt
-example/
-Timer.java
+bin/
+inputs/
 new.sh
-todo
-*.class
-bin
-inp
+account_code.txt
