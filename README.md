@@ -7,8 +7,8 @@ Solutions for [Advent of Code 2023](https://adventofcode.com/2023/) problems.
 git clone https://github.com/diwasrimal/aoc-2023.git
 cd aoc-2023/01
 javac *.java
-java One input.txt
-java Two input.txt
+java One <file>
+java Two <file>
 ```
 
 ### Structure
@@ -20,7 +20,6 @@ Code is kept in the following format
 │   ├── Two.java
 │   ├── SomeHelperClass.java
 │   ├── ...
-│   └── input.txt
 │
 ├── 02
 ...
